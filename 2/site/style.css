@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "teddy_bear";
+    src: url("Fonts/teddy-bear.ttf");
+   
+}
+
+@font-face {
+ font-family: "d9464-arkhip_font";
+    src: url("Fonts/d9464-arkhip_font.ttf");
+}
+
+h1{
+    color:#3A0470;
+    font-family: "d9464-arkhip_font", sans-serif;
+}
+h2{
+    color: #5C0DAC;
+    font-family: "teddy_bear", sans-serif;
+}
+a{
+    color: rgb(13, 5, 255);
+}
+body{
+    background-color:#FFC600;
+}
+img{
+    width:500px;
+    border: 3px solid black;
+    margin-left: 15px;
+}
+ul{
+    list-style: square;
+}
+.big_text{
+    font-size: 1.5rem;
+}
+a:hover{
+    color: blueviolet;
+}
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
